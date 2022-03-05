@@ -1,7 +1,7 @@
 node('ubuntu') {
     
     stage('vcs') {
-        git 'https://github.com/PJWesley7/Sample_jenkins_file.git'
+        git 'https://github.com/PJWesley7/spring-pet-clinic.git'
     }
     
     stage('package') {
